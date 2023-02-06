@@ -5,6 +5,7 @@ import Home from './components/Home'
 import Contact from './components/Contact'
 import About from './components/About'
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/about' element={<About/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }

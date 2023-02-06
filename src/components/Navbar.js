@@ -2,6 +2,7 @@ import React from 'react'
 import {NavLink} from 'react-router-dom';
 import logo from '../assets/burgerlogo.png'
 import css from '../styles/Navbar.css'
+
 function Navbar() {
   return (
     <div className='navbar'>
