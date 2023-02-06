@@ -1,0 +1,30 @@
+.active{
+    color: blue;
+    background-color: rgb(255, 255, 230);
+  }
+  a{
+    text-decoration: none;
+  }
+  .logo{
+    width: 150px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: red;
+    padding-left: 150px;
+
+  }
+  .nav-links{
+    right: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-links a{
+    margin-left: 100px;
+    padding: 4px 6px;
+    border-radius: 6px;
+  }
